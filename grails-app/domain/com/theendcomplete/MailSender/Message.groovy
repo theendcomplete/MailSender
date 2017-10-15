@@ -1,11 +1,11 @@
 package com.theendcomplete.MailSender
 
 class Message {
-    String messageRecipient;
-    String messageParam1;
-    String messageParam2;
-    String messageParam3;
-    String messageParam4;
+    String messageRecipient
+    String messageParam1
+    String messageParam2
+    String messageParam3
+    String messageParam4
 
     static constraints = {
         messageRecipient(email: true, blank: false, nullable: false)

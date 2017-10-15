@@ -53,6 +53,10 @@ dependencies {
     //excel
     compile 'org.grails.plugins:excel-import:3.0.0.RC4'
 
+//    compile 'org.apache.poi:poi:3.9'
+//    compile 'org.apache.poi:poi-ooxml:3.9'
+//    runtime 'net.sourceforge.jexcelapi:jxl:2.6.12'
+
     console "org.grails:grails-console"
     profile "org.grails.profiles:web"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.2"
